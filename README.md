@@ -1,2 +1,2 @@
-# goit-markup-hw-02
-Другий проект HTML документу
+# goit-markup-hw-03
+Другий проект css документу
