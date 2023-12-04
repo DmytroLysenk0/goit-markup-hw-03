@@ -8,6 +8,7 @@ html {
 }
 body {
   margin: 0;
+  
   font-family: 'Roboto', sans-serif;
   color: #434455;
   background-color: #ffffff;
@@ -21,18 +22,28 @@ body {
     background-color: white;
 } */
 
-/* del markers ul */
+/* del markers ul */ /* обнулення */
 ul {
   margin: 0;
-  padding-left: 0;
+  padding: 0;
+
   list-style-type: none;
 }
+/* обнулення */
 p {
   margin: 0;
+  padding: 0;
 }
+/* обнулення */
 h1, h2, h3, h4, h5, h6 {
   margin: 0;
+  padding: 0;
 }
+/* зображення блочний елемент */
+img {
+  display: block;
+}
+
 /* прибрав підкреслення з посилань */
 .logo,
 .list-link,
