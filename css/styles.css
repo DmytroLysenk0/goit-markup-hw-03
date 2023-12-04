@@ -23,7 +23,15 @@ body {
 
 /* del markers ul */
 ul {
+  margin: 0;
+  padding-left: 0;
   list-style-type: none;
+}
+p {
+  margin: 0;
+}
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
 }
 /* прибрав підкреслення з посилань */
 .logo,
