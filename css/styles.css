@@ -8,7 +8,7 @@ html {
 }
 body {
   margin: 0;
-  
+
   font-family: 'Roboto', sans-serif;
   color: #434455;
   background-color: #ffffff;
@@ -52,13 +52,19 @@ img {
 }
 
 /* -------------------------------------------------- */
-
+/* container */
+.container { 
+  max-width: 1158px;
+  padding-left: 
+  padding-right: 
+  margin-left: 156px;  
+  margin-right: 156px;  
+  }
 /* header */
 
 /* logo Web Studio */
 
-.nav-list {
-}
+
 .logo {
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
@@ -97,6 +103,11 @@ img {
 }
 
 /* Studio Portfolio Contacts */
+.list {
+  display: flex;
+
+  outline: 2px solid yellowgreen;
+}
 .nav-list .link {
   color: #2e2f42;
   font-family: Roboto;
