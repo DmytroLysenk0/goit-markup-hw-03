@@ -63,6 +63,11 @@ img {
   
   
   }
+
+
+  .container {
+    align-items: center;
+  }
 /* header */
 
 /* logo Web Studio */
@@ -84,6 +89,10 @@ img {
   color: #2e2f42;
 }
 .list-link {
+  display: block;
+  padding-top: 24px;
+  padding-bottom: 24px;
+
   color: #2e2f42;
   font-family: Roboto;
   font-size: 16px;
@@ -114,7 +123,6 @@ img {
 }
 .list-nav-link:not(:first-child) {
   margin-left: 40px;
-  
 }
 .list-nav-link {
 outline: 2px solid deeppink;
