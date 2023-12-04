@@ -119,6 +119,11 @@ img {
 }
 
 /* contacts header */
+.contacts-list {
+  display: flex;
+
+  outline: 2px solid deeppink;
+}
 .contacts-list .link {
   font-family: Roboto;
   font-size: 16px;
