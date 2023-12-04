@@ -55,6 +55,7 @@ img {
 /* container */
 .container { 
   display: flex;
+  align-items: center;
 
   max-width: 1158px;
   padding-left: 
@@ -66,9 +67,7 @@ img {
   }
 
 
-  /* .container {
-    align-items: center;
-  } */
+ 
 /* header */
 
 /* logo Web Studio */
@@ -150,9 +149,6 @@ img {
   color: #434455;
 }
 .contacts {
-  display: flex;
-  align-items: center;
-  
   font-style: normal;
 }
 .contacts-list .link:hover {
