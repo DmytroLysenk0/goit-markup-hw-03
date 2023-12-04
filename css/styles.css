@@ -54,16 +54,22 @@ img {
 /* -------------------------------------------------- */
 /* container */
 .container { 
+  display: flex;
   max-width: 1158px;
   padding-left: 
   padding-right: 
   margin-left: 156px;  
-  margin-right: 156px;  
+  margin-right: 156px;
+  
+  
   }
 /* header */
 
 /* logo Web Studio */
 
+.nav-list {
+  display: flex;
+}
 
 .logo {
   font-family: 'Raleway', sans-serif;
@@ -105,8 +111,13 @@ img {
 /* Studio Portfolio Contacts */
 .list {
   display: flex;
-
-  outline: 2px solid yellowgreen;
+}
+.list-nav-link:not(:first-child) {
+  margin-left: 40px;
+  
+}
+.list-nav-link {
+outline: 2px solid deeppink;
 }
 .nav-list .link {
   color: #2e2f42;
@@ -122,7 +133,6 @@ img {
 .contacts-list {
   display: flex;
 
-  outline: 2px solid deeppink;
 }
 .contacts-list .link {
   font-family: Roboto;
