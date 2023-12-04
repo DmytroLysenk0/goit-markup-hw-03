@@ -55,6 +55,7 @@ img {
 /* container */
 .container { 
   display: flex;
+
   max-width: 1158px;
   padding-left: 
   padding-right: 
@@ -65,15 +66,16 @@ img {
   }
 
 
-  .container {
+  /* .container {
     align-items: center;
-  }
+  } */
 /* header */
 
 /* logo Web Studio */
 
 .nav-list {
   display: flex;
+  align-items: center;
 }
 
 .logo {
@@ -124,9 +126,7 @@ img {
 .list-nav-link:not(:first-child) {
   margin-left: 40px;
 }
-.list-nav-link {
-outline: 2px solid deeppink;
-}
+
 .nav-list .link {
   color: #2e2f42;
   font-family: Roboto;
@@ -150,6 +150,9 @@ outline: 2px solid deeppink;
   color: #434455;
 }
 .contacts {
+  display: flex;
+  align-items: center;
+  
   font-style: normal;
 }
 .contacts-list .link:hover {
