@@ -57,12 +57,13 @@ img {
   display: flex;
   align-items: center;
 
+  outline: 2px solid slateblue;
+
   max-width: 1158px;
-  padding-left: 
+  /* padding-left: 
   padding-right: 
-  margin-left: 156px;  
-  margin-right: 156px;
-  
+  margin-left:
+  margin-right:  ???????????????*/
   
   }
 
@@ -121,6 +122,7 @@ img {
 /* Studio Portfolio Contacts */
 .list {
   display: flex;
+  margin-left: 76px;
 }
 .list-nav-link:not(:first-child) {
   margin-left: 40px;
@@ -149,6 +151,7 @@ img {
   color: #434455;
 }
 .contacts {
+  margin-left: auto;
   font-style: normal;
 }
 .contacts-list .link:hover {
