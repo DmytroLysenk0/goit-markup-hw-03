@@ -30,7 +30,12 @@ ul {
 p {
   margin: 0;
 }
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   margin: 0;
 }
 /* прибрав підкреслення з посилань */
@@ -40,13 +45,31 @@ h1, h2, h3, h4, h5, h6 {
   text-decoration: none;
 }
 
+.container {
+  max-width: 1158px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  outline: 3px solid red;
+}
+
 /* -------------------------------------------------- */
 
 /* header */
 
 /* logo Web Studio */
+.header-container {
+  /* display: flex;
+  justify-content: space-between;
+  align-items: center; */
 
-.nav-list {
+  border-bottom: 1px solid #e7e9fc;
+
+}
+
+.list {
+  /* display: inline-flex; */
 }
 .logo {
   font-family: 'Raleway', sans-serif;
@@ -60,7 +83,13 @@ h1, h2, h3, h4, h5, h6 {
 .logo-link-header {
   color: #2e2f42;
 }
+
+
+
 .list-link {
+  padding-top: 24px;
+  padding-bottom: 24px;
+
   color: #2e2f42;
   font-family: Roboto;
   font-size: 16px;
@@ -98,7 +127,8 @@ h1, h2, h3, h4, h5, h6 {
 
 /* contacts header */
 .contacts-list .link {
-  font-family: Roboto;
+  display: inline-flex;
+
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -114,12 +144,20 @@ h1, h2, h3, h4, h5, h6 {
   color: #404bbf;
 }
 
-/* секція Герой ???? чи фон чи зображення ??? */
+/* секція Hero ???? чи фон чи зображення ??? */
 
 .hero {
+  margin-bottom: 120px;
   background-color: #2e2f42;
 }
 .hero-text {
+  width: 496px;
+  text-align: center;
+  padding: 188px 0;
+  margin-left: auto;
+  margin-right: auto;
+
+
   font-size: 56px;
   line-height: 1.07;
   text-align: center;
@@ -130,6 +168,17 @@ h1, h2, h3, h4, h5, h6 {
 /* button */
 
 .hero-button {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 4px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  padding: 16px 32px;
+  margin-bottom: 188px;
+
+  min-width: 169px;
+  height: 56px;
+
   background-color: #4d5ae5;
   font-family: 'Roboto', sans-serif;
   font-weight: 500;
@@ -139,6 +188,9 @@ h1, h2, h3, h4, h5, h6 {
   color: #ffffff;
   cursor: pointer;
 }
+.button-text {
+  text-align: center;
+}
 .hero-button:hover {
   background-color: #404bbf;
 }
@@ -147,6 +199,21 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /* section Feauture */
+.feature-hidden {
+  margin-bottom: 120px;
+}
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
 
 .title-feature {
   font-family: Roboto;
@@ -163,13 +230,19 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 1.5;
   letter-spacing: 0.32px;
 }
-
+.feature-list {
+  display: inline-flex;
+}
 /* team */
 
 .team {
   background-color: #f4f4fd;
 }
 .title-team {
+  margin-bottom: 72px;
+  margin-left: auto;
+  margin-right: auto;
+
   color: #2e2f42;
   text-align: center;
   font-family: Roboto;
@@ -180,7 +253,12 @@ h1, h2, h3, h4, h5, h6 {
   letter-spacing: 0.72px;
   text-transform: capitalize;
 }
+.team-container {
+  display: inline-flex;
+  list-style-type: none;
+}
 .team-list {
+  margin-bottom: 120px;
   background-color: #ffffff;
 }
 .text-team {
@@ -223,6 +301,9 @@ h1, h2, h3, h4, h5, h6 {
 /* Our Portfolio */
 
 .title-portfolio {
+  margin-bottom: 72px;
+  margin-left: auto;
+  margin-right: auto;
   color: #2e2f42;
   text-align: center;
   font-family: Roboto;
