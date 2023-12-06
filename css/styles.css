@@ -316,6 +316,8 @@ background: var(--WHITE, #FFF);
 
 .portfolio-list {
   display: flex;
+  flex-wrap: wrap;
+  
 }
 .title-portfolio {
   color: #2e2f42;
@@ -337,6 +339,8 @@ background: var(--WHITE, #FFF);
   line-height: 1.5;
   letter-spacing: 0.32px;
 }
+
+
 
 /* footer */
 
