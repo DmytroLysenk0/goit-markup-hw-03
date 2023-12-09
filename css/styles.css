@@ -268,8 +268,13 @@ img {
 
 .team {
   background-color: #f4f4fd;
+  padding-top: 120px;
+  padding-bottom: 120px;
+
 }
 .title-team {
+  margin-bottom: 72px;
+
   color: #2e2f42;
   text-align: center;
   font-family: Roboto;
@@ -280,8 +285,18 @@ img {
   letter-spacing: 0.72px;
   text-transform: capitalize;
 }
+.team-scroll {
+  gap: 24px;
+}
 .team-list {
+  display: flex;
+  width: calc((100% - 72px) / 4);
+  border-radius: 0px 0px 4px 4px;
   background-color: #ffffff;
+}
+.member-name {
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 .text-team {
   font-family: Roboto;
@@ -291,8 +306,10 @@ img {
   letter-spacing: 0.32px;
 }
 .text-team {
-  text-align: center;
-  font-family: Roboto;
+
+text-align: center;
+ 
+font-family: Roboto;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -300,6 +317,9 @@ img {
   letter-spacing: 0.32px;
 }
 .member-team {
+  text-align: center;
+  margin-bottom: 8px;
+
   color: #2e2f42;
   text-align: center;
   font-family: Roboto;
