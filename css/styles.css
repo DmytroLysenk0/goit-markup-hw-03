@@ -327,6 +327,9 @@ font-family: Roboto;
   letter-spacing: 0.4px;
 }
 .app {
+  margin-bottom: 8px;
+  
+
   color: #2e2f42;
   text-align: center;
   font-family: Roboto;
@@ -339,7 +342,16 @@ font-family: Roboto;
 
 /* Our Portfolio */
 
+.portfolio {
+  padding-top: 120px;
+  padding-bottom: 120px;
+
+}
+
 .title-portfolio {
+  margin-bottom: 72px;
+
+
   color: #2e2f42;
   text-align: center;
   font-family: Roboto;
@@ -349,6 +361,22 @@ font-family: Roboto;
   line-height: 1.11;
   letter-spacing: 0.72px;
   text-transform: capitalize;
+}
+.portfolio-list {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 24px;
+  row-gap: 48px;
+}
+.portfolio-scroll {
+  width: calc((100% - 48px) / 3);
+
+}
+.portfolio-cont {
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+  border-top: none;
+
 }
 .text-app {
   text-align: center;
