@@ -167,14 +167,16 @@ img {
 }
 
 /* секція Герой */
-
+.hero-container {
+ 
+}
 .hero {
   background-color: #2e2f42;
 }
 .hero-text {
   text-align: center;
   padding-top: 188px;
-  padding-bottom: 188px;
+  padding-bottom: 48px;
   max-width: 496px;
 
   font-size: 56px;
@@ -190,6 +192,7 @@ img {
   display: block;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 188px;
   min-width: 169px;
   height: 56px;
   border: none;
