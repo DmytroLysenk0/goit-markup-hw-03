@@ -58,11 +58,8 @@ img {
 /* -------------------------------------------------- */
 
 /* header */
-.all-header {
-  display: flex;
+.header {
   border-bottom: 1px solid #E7E9FC;
-  
- justify-content: space-between;
 }
 /* logo Web Studio */
 
