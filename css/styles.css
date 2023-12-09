@@ -115,8 +115,9 @@ img {
 }
 
 /* Studio Portfolio Contacts 3 кнопки*/
-.link-button:not(:last-child){
-  margin-right: 40px;
+.list {
+  gap: 40px;
+
 }
 .nav-list  {
  display: flex;
