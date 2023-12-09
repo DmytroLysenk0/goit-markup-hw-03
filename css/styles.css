@@ -238,7 +238,7 @@ img {
   padding-bottom: 120px;
 }
 .feature1 {
-  width: calc((100%- 24px*3)/4); 
+  flex-basis: calc((100% - 3 * 24px) / 4); 
 }
 .title-feature {
   margin-bottom: 8px; 
