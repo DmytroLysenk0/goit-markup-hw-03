@@ -141,11 +141,10 @@ img {
 }
 
 /* contacts header телефон та пошта*/
-.addres-link:not(:first-child){
-  margin-left: 40px;
+.addres-link:not(:last-child){
+  margin-right: 40px;
 }
 .contacts-list {
-  gap: 40px;
   display: flex;
   justify-content: end;
 }
