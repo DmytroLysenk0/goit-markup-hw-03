@@ -27,6 +27,7 @@ ul {
   margin: 0;
   padding-left: 0;
   list-style-type: none;
+  padding: 0;
 }
 p {
   margin: 0;
@@ -237,7 +238,7 @@ img {
   padding-bottom: 120px;
 }
 .feature1 {
-  width: calc((100% - 72px) / 4); 
+  width: calc((100%- 24px*3)/4); 
 }
 .title-feature {
   margin-bottom: 8px; 
