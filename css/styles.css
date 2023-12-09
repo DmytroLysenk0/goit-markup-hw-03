@@ -170,11 +170,11 @@ img {
 
 .hero {
   background-color: #2e2f42;
+  
 }
 .hero-text {
   text-align: center;
   padding-top: 188px;
-  padding-bottom: 188px;
   max-width: 496px;
 
   font-size: 56px;
@@ -188,6 +188,8 @@ img {
 
 .hero-button {
   display: block;
+  margin-bottom: 188px;
+  
   margin-left: auto;
   margin-right: auto;
   min-width: 169px;
