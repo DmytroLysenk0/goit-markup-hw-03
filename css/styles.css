@@ -237,10 +237,10 @@ img {
   padding-bottom: 120px;
 }
 .feature {
- 
+  width: calc((100% - 72px) / 4); 
 }
 .title-feature {
-  padding-bottom: 8px;
+  margin-bottom: 8px; 
   max-width: 264px;
   
   font-family: Roboto;
