@@ -145,6 +145,7 @@ img {
   margin-left: 40px;
 }
 .contacts-list {
+  gap: 40px;
   display: flex;
   justify-content: end;
 }
