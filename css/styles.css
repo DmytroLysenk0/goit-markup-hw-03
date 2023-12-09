@@ -79,6 +79,9 @@ img {
   text-transform: uppercase;
   color: #4d5ae5;
 }
+.logo.logo-link-header {
+  margin-right: 76px;
+}
 .logo-link-header {
   color: #2e2f42;
 }
@@ -126,7 +129,7 @@ img {
  }
  .list {
   display: flex;
-  margin-left: 76px;
+  
 }
 .nav-list .link {
   color: #2e2f42;
