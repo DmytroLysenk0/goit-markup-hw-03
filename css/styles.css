@@ -51,14 +51,17 @@ h6 {
   padding-right: 15px;
   margin-left: auto;
   margin-right: auto;
-  outline: 3px solid red;
 }
+div {
+    outline: 3px solid red;
 
+}
 /* -------------------------------------------------- */
 
 /* header */
 
 /* logo Web Studio */
+
 .header-container {
   /* display: flex;
   justify-content: space-between;
@@ -69,9 +72,14 @@ h6 {
 }
 
 .list {
-  /* display: inline-flex; */
+  display: inline-flex;
+}
+.list-studio:not(:last-child) {
+  margin-right: 24px;
 }
 .logo {
+  margin-right: 76px;
+
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 18;
@@ -147,7 +155,6 @@ h6 {
 /* секція Hero ???? чи фон чи зображення ??? */
 
 .hero {
-  margin-bottom: 120px;
   background-color: #2e2f42;
 }
 .hero-text {
@@ -166,7 +173,9 @@ h6 {
 }
 
 /* button */
-
+.button {
+  padding-bottom: 188px;
+}
 .hero-button {
   display: block;
   margin-left: auto;
@@ -174,7 +183,7 @@ h6 {
   border-radius: 4px;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
   padding: 16px 32px;
-  margin-bottom: 188px;
+  /* margin-bottom: 188px; */
 
   min-width: 169px;
   height: 56px;
@@ -200,7 +209,8 @@ h6 {
 
 /* section Feauture */
 .feature-hidden {
-  margin-bottom: 120px;
+  padding-bottom: 120px;
+  padding-top: 120px;
 }
 .visually-hidden {
   position: absolute;
@@ -232,6 +242,11 @@ h6 {
 }
 .feature-list {
   display: inline-flex;
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+.feature:not(:last-child) {
+  margin-right: 24px;
 }
 /* team */
 
@@ -239,7 +254,8 @@ h6 {
   background-color: #f4f4fd;
 }
 .title-team {
-  margin-bottom: 72px;
+  padding-top: 120px;
+  padding-bottom: 72px;
   margin-left: auto;
   margin-right: auto;
 
@@ -256,9 +272,13 @@ h6 {
 .team-container {
   display: inline-flex;
   list-style-type: none;
+  padding-bottom: 120px;
+  
+}
+.team-list:not(:last-child) {
+  margin-right: 24px;
 }
 .team-list {
-  margin-bottom: 120px;
   background-color: #ffffff;
 }
 .text-team {
@@ -301,7 +321,8 @@ h6 {
 /* Our Portfolio */
 
 .title-portfolio {
-  margin-bottom: 72px;
+  padding-top: 120px;
+  padding-bottom: 72px;
   margin-left: auto;
   margin-right: auto;
   color: #2e2f42;
@@ -313,6 +334,16 @@ h6 {
   line-height: 1.11;
   letter-spacing: 0.72px;
   text-transform: capitalize;
+}
+.our-portfolio {
+  display: flex;
+  flex-wrap: wrap;
+  padding-bottom: 120px;
+  width: calc((100%-48)3);
+}
+.our-portfolio-link {
+
+  width: calc((100%-24*2)3);
 }
 .text-app {
   text-align: center;
@@ -329,6 +360,13 @@ h6 {
 .footer {
   background-color: #2e2f42;
 }
+.logo-text {
+
+  padding-top: 100px;
+  padding-bottom: 100px;
+  padding-left: 0;
+  padding-right: 0;
+}
 .logo-footer {
   font-family: 'Raleway', sans-serif;
   font-size: 18px;
@@ -342,6 +380,10 @@ h6 {
   color: #f4f4fd;
 }
 .text-footer {
+  display: block;
+  padding-top: 16px;
+  width: 264px;
+
   color: #f4f4fd;
   font-family: Roboto;
   font-size: 16px;
