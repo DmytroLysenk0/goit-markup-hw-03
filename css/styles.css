@@ -219,6 +219,10 @@ img {
 }
 
 /* section Feauture схований заголовок */
+.hidden {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -342,7 +346,7 @@ img {
 
 .footer {
   background-color: #2e2f42;
-  display: inline-block;
+  
   padding-top: 100px;
   padding-bottom: 100px;
 }
@@ -361,6 +365,7 @@ img {
   color: #f4f4fd;
 }
 .text-footer {
+  display: inline-block;
   color: #f4f4fd;
   font-family: Roboto;
   font-size: 16px;
