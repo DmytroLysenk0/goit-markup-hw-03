@@ -286,10 +286,11 @@ img {
   text-transform: capitalize;
 }
 .team-scroll {
+  display: flex;
   gap: 24px;
 }
 .team-list {
-  display: flex;
+  
   width: calc((100% - 72px) / 4);
   border-radius: 0px 0px 4px 4px;
   background-color: #ffffff;
@@ -298,13 +299,7 @@ img {
   padding-top: 32px;
   padding-bottom: 32px;
 }
-.text-team {
-  font-family: Roboto;
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 1.5;
-  letter-spacing: 0.32px;
-}
+
 .text-team {
 
 text-align: center;
