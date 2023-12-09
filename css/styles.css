@@ -288,6 +288,8 @@ img {
 .team-scroll {
   display: flex;
   gap: 24px;
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 .team-list {
   
