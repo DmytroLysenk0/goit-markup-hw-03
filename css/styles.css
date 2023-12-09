@@ -177,8 +177,8 @@ img {
 }
 .hero-text {
   text-align: center;
-  padding-top: 188px;
-  padding-bottom: 48px;
+  /* padding-top: 188px;
+  padding-bottom: 48px; */
   max-width: 496px;
 
   font-size: 56px;
@@ -191,8 +191,11 @@ img {
 /* button в секції Герой */
 
 .hero-button {
+  
   display: block;
-  margin-bottom: 188px;
+  /* margin-bottom: 188px; */
+  
+
   
   margin-left: auto;
   margin-right: auto;
@@ -328,7 +331,7 @@ font-family: Roboto;
 }
 .app {
   margin-bottom: 8px;
-  
+
 
   color: #2e2f42;
   text-align: center;
