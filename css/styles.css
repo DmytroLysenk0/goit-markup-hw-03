@@ -21,7 +21,8 @@ body {
     background-color: white;
 } */
 
-/* del markers ul */
+/* del markers ul  */
+/* обнудення margin та padding */
 ul {
   margin: 0;
   padding-left: 0;
@@ -30,12 +31,7 @@ ul {
 p {
   margin: 0;
 }
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+h1, h2, h3, h4, h5, h6 {
   margin: 0;
 }
 /* прибрав підкреслення з посилань */
@@ -45,47 +41,36 @@ h6 {
   text-decoration: none;
 }
 
+img {
+  display: block;
+}
+
 .container {
   max-width: 1158px;
   padding-left: 15px;
   padding-right: 15px;
   margin-left: auto;
   margin-right: auto;
+
 }
-div {
-  outline: 3px solid red;
-}
-img {
-  display: block;
-}
+
+
 /* -------------------------------------------------- */
 
 /* header */
-.container-header-container {
-  border-bottom: 1px solid #e7e9fc;
+.all-header {
+  display: flex;
+  border-bottom: 1px solid #E7E9FC;
+  
+ justify-content: space-between;
 }
 /* logo Web Studio */
 
-.header-container {
-  /* display: flex;
-  justify-content: space-between;
-  align-items: center; */
 
-  border-bottom: 1px solid #e7e9fc;
-}
-
-.list {
-  display: inline-flex;
-}
-.list-studio:not(:last-child) {
-  margin-right: 24px;
-}
 .logo {
-  margin-right: 76px;
-
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
-  font-size: 18px;
+  font-size: 18;
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
@@ -94,11 +79,10 @@ img {
 .logo-link-header {
   color: #2e2f42;
 }
-
 .list-link {
-  padding-top: 24px;
   padding-bottom: 24px;
-
+  padding-top: 24px;
+  
   color: #2e2f42;
   font-family: Roboto;
   font-size: 16px;
@@ -107,15 +91,12 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
+
 .list-link:hover {
   color: #404bbf;
 }
 .list-link:focus {
   color: #404bbf;
-}
-.nav-list {
-  display: flex;
-  align-items: center;
 }
 .nav-list:hover {
   color: #404bbf;
@@ -127,7 +108,19 @@ img {
   color: #404bbf;
 }
 
-/* Studio Portfolio Contacts */
+/* Studio Portfolio Contacts 3 кнопки*/
+.link-button:not(:last-child){
+  margin-right: 40px;
+}
+.nav-list {
+ display: flex;
+ align-items: center;
+  justify-content: center;
+}
+.list {
+  display: flex;
+  margin-left: 76px;
+}
 .nav-list .link {
   color: #2e2f42;
   font-family: Roboto;
@@ -138,13 +131,17 @@ img {
   letter-spacing: 0.32px;
 }
 
-/* contacts header */
-.list {
-  display: flex;
+/* contacts header телефон та пошта*/
+.addres-link:not(:first-child){
+  margin-left: 40px;
 }
-.contacts-list .link {
-  display: inline-flex;
+.contacts-list {
+  display: flex;
+  justify-content: end;
+}
 
+.contacts-list .link {
+  font-family: Roboto;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -160,18 +157,12 @@ img {
   color: #404bbf;
 }
 
-/* секція Hero ???? чи фон чи зображення ??? */
+/* секція Герой */
 
 .hero {
   background-color: #2e2f42;
 }
 .hero-text {
-  width: 496px;
-  text-align: center;
-  padding: 188px 0;
-  margin-left: auto;
-  margin-right: auto;
-
   font-size: 56px;
   line-height: 1.07;
   text-align: center;
@@ -179,22 +170,9 @@ img {
   color: #ffffff;
 }
 
-/* button */
-.button {
-  padding-bottom: 188px;
-}
+/* button в секції Герой */
+
 .hero-button {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  border-radius: 4px;
-  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
-  padding: 16px 32px;
-  /* margin-bottom: 188px; */
-
-  min-width: 169px;
-  height: 56px;
-
   background-color: #4d5ae5;
   font-family: 'Roboto', sans-serif;
   font-weight: 500;
@@ -204,9 +182,6 @@ img {
   color: #ffffff;
   cursor: pointer;
 }
-.button-text {
-  text-align: center;
-}
 .hero-button:hover {
   background-color: #404bbf;
 }
@@ -214,23 +189,7 @@ img {
   background-color: #404bbf;
 }
 
-/* section Feauture */
-.feature-hidden {
-  padding-bottom: 120px;
-  padding-top: 120px;
-}
-.visually-hidden {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  border: 0;
-  padding: 0;
-  white-space: nowrap;
-  clip-path: inset(100%);
-  clip: rect(0 0 0 0);
-  overflow: hidden;
-}
+/* section Feauture схований заголовок */
 
 .title-feature {
   font-family: Roboto;
@@ -247,25 +206,13 @@ img {
   line-height: 1.5;
   letter-spacing: 0.32px;
 }
-.feature-list {
-  display: inline-flex;
-  padding-top: 120px;
-  padding-bottom: 120px;
-}
-.feature:not(:last-child) {
-  margin-right: 24px;
-}
+
 /* team */
 
 .team {
   background-color: #f4f4fd;
 }
 .title-team {
-  padding-top: 120px;
-  padding-bottom: 72px;
-  margin-left: auto;
-  margin-right: auto;
-
   color: #2e2f42;
   text-align: center;
   font-family: Roboto;
@@ -275,14 +222,6 @@ img {
   line-height: 1.11;
   letter-spacing: 0.72px;
   text-transform: capitalize;
-}
-.team-container {
-  display: inline-flex;
-  list-style-type: none;
-  padding-bottom: 120px;
-}
-.team-list:not(:last-child) {
-  margin-right: 24px;
 }
 .team-list {
   background-color: #ffffff;
@@ -327,10 +266,6 @@ img {
 /* Our Portfolio */
 
 .title-portfolio {
-  padding-top: 120px;
-  padding-bottom: 72px;
-  margin-left: auto;
-  margin-right: auto;
   color: #2e2f42;
   text-align: center;
   font-family: Roboto;
@@ -340,15 +275,6 @@ img {
   line-height: 1.11;
   letter-spacing: 0.72px;
   text-transform: capitalize;
-}
-.our-portfolio {
-  display: flex;
-  flex-wrap: wrap;
-  padding-bottom: 120px;
- 
-}
-.our-portfolio-link {
-
 }
 .text-app {
   text-align: center;
@@ -363,13 +289,9 @@ img {
 /* footer */
 
 .footer {
-  padding: 100px 0;
   background-color: #2e2f42;
 }
 .logo-footer {
-  display: inline-block;
-  margin-bottom: 16px;
-
   font-family: 'Raleway', sans-serif;
   font-size: 18px;
   line-height: 1.17;
@@ -382,9 +304,6 @@ img {
   color: #f4f4fd;
 }
 .text-footer {
-  
-  max-width: ;width: 264px;
-
   color: #f4f4fd;
   font-family: Roboto;
   font-size: 16px;
