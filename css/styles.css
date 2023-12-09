@@ -61,6 +61,12 @@ img {
 .header {
   border-bottom: 1px solid #E7E9FC;
 }
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+}
 /* logo Web Studio */
 
 
@@ -77,6 +83,7 @@ img {
   color: #2e2f42;
 }
 .list-link {
+  display: block;
   padding-bottom: 24px;
   padding-top: 24px;
   
@@ -109,12 +116,15 @@ img {
 .link-button:not(:last-child){
   margin-right: 40px;
 }
-.nav-list {
+.nav-list  {
  display: flex;
  align-items: center;
-  justify-content: center;
 }
-.list {
+.addres-link  {
+  display: flex;
+  align-items: center;
+ }
+ .list {
   display: flex;
   margin-left: 76px;
 }
