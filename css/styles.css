@@ -246,11 +246,11 @@ img {
 .feature-list {
   display: flex;
   gap: 24px;
-  padding-top: 120px;
-  padding-bottom: 120px;
+  /* padding-top: 120px;
+  padding-bottom: 120px; */
 }
-.feature1 {
-  flex-basis: calc((100% - 3 * 24px) / 4); 
+.feature {
+  flex-basis: calc((100% - 72px) / 4); 
 }
 .title-feature {
   margin-bottom: 8px; 
@@ -295,8 +295,7 @@ img {
 .team-scroll {
   display: flex;
   gap: 24px;
-  padding-top: 32px;
-  padding-bottom: 32px;
+  
 }
 .team-list {
   
@@ -332,6 +331,10 @@ font-family: Roboto;
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.4px;
+}
+.member-scroll {
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 .app {
   margin-bottom: 8px;
