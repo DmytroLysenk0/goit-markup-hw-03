@@ -419,7 +419,8 @@ font-family: Roboto;
   color: #f4f4fd;
 }
 .text-footer {
-  display: inline-block;
+  max-width: 264px;
+  /* display: inline-block; */
   color: #f4f4fd;
   font-family: Roboto;
   font-size: 16px;
